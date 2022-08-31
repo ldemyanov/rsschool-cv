@@ -55,7 +55,7 @@ No commercial development experience.
 
 ## Irkutsk State University
 - **Institute:** Institute of Mathematics and Information Technologies
-- **Speciality:** Software and Information System Administration
+- **Speciality:** Mathematical support and administration of information systems.
 
 # 8. Languages
 - Russian (native)
