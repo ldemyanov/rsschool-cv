@@ -12,7 +12,7 @@
 * **Discord RSS**: Leonid Demyanov (@ldemaynov) 
 
 # 3. About myself:
-I love programming and study at rolling scopes school. My goal is to finish the stage1 on the first try. My strength is patience and discipline.
+I'm 22 y.o. I love programming and study at rolling scopes school. My goal is to finish the stage1 on the first try. My strength is patience and discipline.
 
 
 # 4. Skills
