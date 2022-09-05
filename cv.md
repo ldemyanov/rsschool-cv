@@ -1,6 +1,6 @@
 # 1. Leonid Demyanov
 
-# 2. Contacts:
+# 2. Contacts
 
 * **Address:** Russia, Irkutsk
 * **E-mail:** leonidemyanov@gmail.com
@@ -8,7 +8,7 @@
 * **VK:** [Леонид Демьянов](https://vk.com/de17eon)
 * **Discord RSS**: Leonid Demyanov (@ldemaynov) 
 
-# 3. About myself:
+# 3. About myself
 I'm 22 y.o. I love programming and study at rolling scopes school. My goal is to finish the stage1 on the first try. My strength is patience and discipline.
 
 
