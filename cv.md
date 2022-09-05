@@ -1,6 +1,3 @@
-## [rsschool-cv](rsccool-cv)
-
-
 # 1. Leonid Demyanov
 
 # 2. Contacts:
