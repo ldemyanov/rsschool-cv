@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap');
+
+body, h2, p, ul, li, pre, code {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.link {
+    color: #0080ff;
+}
+.link:hover {
+    text-decoration: underline;
+}
+
+li {
+    list-style-type: none;
+}
+
+.pb {
+    padding-bottom: 15px;
+}
+
+.pb2 {
+    padding-bottom: 30px;
+}
+
+.mb2 {
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+/* Block Title */
+.block-title {
+    display: flex;
+    align-items: center;
+    height: 32px;
+    margin-bottom: 10px;
+}
+.icon {
+    height: 32px;
+    width: 32px;
+}
+.block-title__icon {
+    margin-right: 10px;
+}
+.title {
+    font-size: 24px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.title_big {
+    font-size: 32px;
+}
+.title_small {
+    font-size: 22px;
+}
+
+
+
+.top-wrapper {
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+.photo {
+    z-index: 0;
+    position: relative;
+    margin: auto;
+    background-image: url('../images/myphoto.jpg');
+    background-size: contain;
+    border-radius: 50%;
+    height: 350px;
+    width: 350px;
+    /* filter: grayscale(100%); */
+}
+.photo::after {
+    z-index: 1;
+    content: "";
+    position: absolute;
+    top: 2;
+    bottom: 2;
+    left: 2;
+    right: 2;
+    border-radius: 50%;
+    border: 10px solid rgba(255, 255, 255, 0.5);
+}
+.name {
+    z-index: 2;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 25px;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    font-size: 36px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+
+.greeting__title {
+    margin: 10px 0;
+}
+
+.text {
+    font-size: 18px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    text-align: justify;
+}
+.b {
+    font-weight: 800;
+}
+.text-left {
+    text-align: left;
+}
+.greeting__text {
+    text-align: center;
+}
+
+.content-block {
+    padding-top: 20px;
+    width: 800px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+}
+
+.footer {
+    border: 4px solid rgb(0, 0, 0);
+    border-radius: 40px;
+    padding: 15px 0;
+    width: 385px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 10px;
+}
+.link_with_img {
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+}
+.github-svg {
+    height: 18px;
+}
+.rsschool-svg {
+    height: 35px;
+}
