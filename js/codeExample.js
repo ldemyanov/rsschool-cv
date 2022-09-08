@@ -17,10 +17,14 @@ const CODE_EXAMPLE = `function toWeirdCase(string){
 }`
 
     const tagPre = document.getElementById("codeExample")
+    const tagPreMobile = document.getElementById("codeExampleMobile")
     const code = document.createElement('code')
+    const codeMobile = document.createElement('code')
     code.innerHTML = CODE_EXAMPLE
+    codeMobile.innerHTML = CODE_EXAMPLE
     tagPre.append(code)
+    tagPreMobile.append(codeMobile)
+    hljs.highlightAll();
 }
 
 addCodeExample()
-hljs.highlightAll();
